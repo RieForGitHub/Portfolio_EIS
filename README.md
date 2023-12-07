@@ -133,7 +133,9 @@ for file_name in all_files:
 
 # How The Program Works
 The program operates in steps of 5 degrees Celsius, searching for the closest temperatures at each interval. For instance, finding the closest value for -150 degrees Celsius looks like this:
+
 <img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo3.jpg">
 
 The results of running this program are as follows:
-<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo4.jpg" width = "550">
+
+<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo4.jpg" width = "900">
