@@ -15,7 +15,7 @@ The main purpose of my work was to speed up my analysis, make it more precise (r
 # Program
 Input: directory path 
 
-**# -*- coding: utf-8 -*-
+```# -*- coding: utf-8 -*-
 import os
 directory_path="C:\\Users\Justyna\Desktop\Temperaturowe"
 
@@ -127,7 +127,7 @@ usun=[name.strip() for name in usun]
 all_files=os.listdir(directory_path)
 for file_name in all_files:
     if file_name[:-4] not in usun:
-        os.remove(os.path.join(directory_path,file_name))**
+        os.remove(os.path.join(directory_path,file_name))```
 
 
 # How The Program Works
