@@ -7,7 +7,7 @@ Unfortunately, the program used in impedance spectroscopy saves temperature data
 
 Here's an example of the content inside a text file:
 
-<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo2.jpg" width="700">
+<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo2.jpg" width="900">
 
 # Goals
 The main purpose of my work was to speed up my analysis, make it more precise (reducing human errors), and optimize the process to free up time for other important tasks, such as drawing conclusions. To achieve this, I developed a Python program that identifies temperatures with the closest values at each step. At the end of its operation, the program also deletes unnecessary files, enabling me to work more efficiently and start analyzing data with OriginLab.
