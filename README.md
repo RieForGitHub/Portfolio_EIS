@@ -3,11 +3,11 @@
 Elektrochemical Impedance spectroscopy (EIS) is based on activating a material with a small electromagnetic signal selected from a specific frequency range and measuring the electrical response of the examined sample with a given geometry, analyzing its physicochemical properties.
 Unfortunately, the program used in impedance spectroscopy saves temperature data multiple times at close intervals. As a result, we end up with a list of text files, and our task is to check each file to find temperatures closest to the desired ones. Typically, for my master's work, I had around 400 text files to examine. The list of text files looks like this:
 
-<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo1.jpg" width="500">
+<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo1.jpg" width="550">
 
 Here's an example of the content inside a text file:
 
-<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo2.jpg" width="500">
+<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo2.jpg" width="600">
 
 # Goals
 The main purpose of my work was to speed up my analysis, make it more precise (reducing human errors), and optimize the process to free up time for other important tasks, such as drawing conclusions. To achieve this, I developed a Python program that identifies temperatures with the closest values at each step. At the end of its operation, the program also deletes unnecessary files, enabling me to work more efficiently and start analyzing data with OriginLab.
@@ -132,7 +132,7 @@ for file_name in all_files:
 
 # How The Program Works
 The program operates in steps of 5 degrees Celsius, searching for the closest temperatures at each interval. For instance, finding the closest value for -150 degrees Celsius looks like this:
-<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo3.jpg" width = "500">
+<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo3.jpg" width = "550">
 
 The results of running this program are as follows:
-<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo4.jpg" width = "500">
+<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo4.jpg" width = "550">
