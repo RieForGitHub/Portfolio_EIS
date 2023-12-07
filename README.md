@@ -7,7 +7,7 @@ Unfortunately, the program used in impedance spectroscopy saves temperature data
 
 Here's an example of the content inside a text file:
 
-<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo2.jpg" width="600">
+<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo2.jpg" width="700">
 
 # Goals
 The main purpose of my work was to speed up my analysis, make it more precise (reducing human errors), and optimize the process to free up time for other important tasks, such as drawing conclusions. To achieve this, I developed a Python program that identifies temperatures with the closest values at each step. At the end of its operation, the program also deletes unnecessary files, enabling me to work more efficiently and start analyzing data with OriginLab.
@@ -127,12 +127,13 @@ usun=[name.strip() for name in usun]
 all_files=os.listdir(directory_path)
 for file_name in all_files:
     if file_name[:-4] not in usun:
-        os.remove(os.path.join(directory_path,file_name))```
+        os.remove(os.path.join(directory_path,file_name))
+```
 
 
 # How The Program Works
 The program operates in steps of 5 degrees Celsius, searching for the closest temperatures at each interval. For instance, finding the closest value for -150 degrees Celsius looks like this:
-<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo3.jpg" width = "550">
+<img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo3.jpg" width = "500">
 
 The results of running this program are as follows:
 <img src="https://github.com/RieForGitHub/Portfolio_EIS/blob/main/Photo4.jpg" width = "550">
